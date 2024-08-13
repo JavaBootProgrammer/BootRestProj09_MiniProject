@@ -1,2 +1,1 @@
-# BootRestProj09_MiniProject
-BootRestProj09_MiniProject
+BootRestProj08_PathVariables
