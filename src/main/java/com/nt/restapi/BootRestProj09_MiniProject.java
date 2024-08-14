@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class RestApiApplication {
+public class BootRestProj09_MiniProject {
 
     public static void main(String[] args) {
-        SpringApplication.run(RestApiApplication.class, args);
+        SpringApplication.run(BootRestProj09_MiniProject.class, args);
     }
 
 }
