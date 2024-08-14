@@ -1,7 +1,6 @@
 package com.nt.service;
 
 import com.nt.model.Tourist;
-import com.nt.repository.iTouristRepo;
 
 import java.util.List;
 
