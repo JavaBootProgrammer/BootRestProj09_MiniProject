@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.nt</groupId>
-    <artifactId>RestApi</artifactId>
+    <artifactId>BootRestProj09_MiniProject</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>RestApi</name>
-    <description>RestApi</description>
+    <name>BootRestProj09_MiniProject</name>
+    <description>BootRestProj09_MiniProject</description>
     <url/>
     <licenses>
         <license/>

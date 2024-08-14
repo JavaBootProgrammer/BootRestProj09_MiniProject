@@ -10,4 +10,5 @@ import com.nt.restapi.model.Person;
 public interface PersonService {
     public String registerPerson(Person person);
     public List<Person> showAll();
+    public Person getPersonById(Integer id);
 }

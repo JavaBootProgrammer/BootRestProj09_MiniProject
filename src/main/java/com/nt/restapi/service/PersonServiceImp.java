@@ -7,7 +7,6 @@ import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.RequestBody;
 
 @Service
 public class PersonServiceImp implements PersonService{
@@ -28,4 +27,9 @@ public class PersonServiceImp implements PersonService{
 		
 		return personRepository.findAll();
 	}
+
+    @Override
+    public Person getPersonById(Integer id) {
+        return personRepository.findById(id).orElseThrow(()-> new IllegalArgumentException("imvalid ")) ;
+    }
 }
